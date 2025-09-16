@@ -36,9 +36,10 @@ foodzy/
 ├─ style.css
 ├─ main.js
 ├─ logo.png
-├─ media/                  # put screenshots here before pushing
-│   ├─ screenshot1.png
-│   └─ screenshot2.png
+├─ images/                  
+│   ├─ foodzy ss1.png
+│   ├─ foodzy ss2.png
+│   └─ foodzy ss10.png
 ├─ README.md
 └─ .gitignore
 ```
@@ -52,15 +53,47 @@ foodzy/
 
 ---
 
-## 📸 Add Screenshots to README
-1. Create a `media/` folder inside your `foodzy` project.  
-2. Put screenshots named like `screenshot1.png`, `screenshot2.png` into `media/`.  
-3. Use this markdown in README to display them:
-```md
-## Screenshots
-![Homepage](media/screenshot1.png)
-![Menu / Cart](media/screenshot2.png)
-```
+## 📸 Screenshots  
+
+### Screenshot 1 – Homepage  
+This is the Homepage of the website, featuring the main banner and hero section.  
+![Homepage](images/foodzy%20ss1.png)  
+
+### Screenshot 2 – About Us  
+This shows the About Us section, where the restaurant's story is told.  
+![About Us](images/foodzy%20ss2.png)  
+
+### Screenshot 3 – Menu  
+This is the Menu section, displaying various food categories and dishes.  
+![Menu](images/foodzy%20ss3.png)  
+
+### Screenshot 4 – Menu / Gallery Focus  
+This screenshot also shows part of the Menu or Gallery, focusing on specific dishes like pizza and sushi.  
+![Menu Focus](images/foodzy%20ss4.png)  
+
+### Screenshot 5 – Gallery & Table Booking  
+This shows the Gallery and Table Booking section, highlighting the opening hours and an image gallery.  
+![Gallery & Booking](images/foodzy%20ss5.png)  
+
+### Screenshot 6 – Chefs Section  
+This is the Chefs Section, introducing the culinary team.  
+![Chefs](images/foodzy%20ss6.png)  
+
+### Screenshot 7 – Testimonials  
+This shows the Testimonials section, where customer reviews are displayed.  
+![Testimonials](images/foodzy%20ss7.png)  
+
+### Screenshot 8 – Testimonials + FAQ  
+This screenshot includes both the Testimonials and the FAQ (Frequently Asked Questions) section.  
+![Testimonials & FAQ](images/foodzy%20ss8.png)  
+
+### Screenshot 9 – Blog & Newsletter  
+This displays the Blog and Newsletter Subscription section.  
+![Blog & Newsletter](images/foodzy%20ss9.png)  
+
+### Screenshot 10 – Newsletter & Footer  
+This shows the Newsletter and Footer section of the website.  
+![Footer](images/foodzy%20ss10.png)  
 
 ---
 
@@ -73,23 +106,23 @@ git init
 git add .
 git commit -m "Initial commit - Foodzy (frontend)"
 git branch -M main
-git remote add origin https://github.com/<your-username>/foodzy.git
+git remote add origin https://github.com/<keerthana-ki>/foodzy.git
 git push -u origin main
 ```
-(Replace `<your-username>` with your GitHub username)
 
 ---
 
 ## 🌐 Deploy with GitHub Pages (optional - static site)
 1. Push the repo to GitHub (steps above).  
 2. On GitHub repo → **Settings** → **Pages** → Source: `main` branch / root (`/`) → Save.  
-3. After a minute, your site will be available at: `https://<your-username>.github.io/foodzy/`
+3. After a minute, your site will be available at:  
+   `https://<your-username>.github.io/foodzy/`
 
 ---
 
 ## ✅ What to include in the GitHub repo BEFORE applying
 - `index.html`, `style.css`, `main.js`, `logo.png` (already present)  
-- `media/` folder with screenshots (homepage, cart, menu)  
+- `images/` folder with screenshots (homepage, cart, menu, etc.)  
 - `README.md` (this file) and `.gitignore` (see below)  
 - Optional: `/docs/ProjectReport.pdf` (a PDF of your PPT or final report).
 
@@ -104,12 +137,10 @@ git push -u origin main
 ---
 
 ## 👩‍💻 Authors / Credits
-- Minor project (6th Semester, B.Tech) — **Keerthana A** and **Harshath KC** 
-- Project guide / faculty: **Mrs.Swetha A**
+- Minor project (6th Semester, B.Tech) — **Keerthana A** and **Harshath KC**  
+- Project guide / faculty: **Mrs. Swetha A**
+
 ---
 
 ## 📜 License
 MIT License — see `LICENSE` (optional)
-
----
-*If you want, I can also convert your PPT into a PDF and place it in `/docs/` for you to upload to the repo.*
